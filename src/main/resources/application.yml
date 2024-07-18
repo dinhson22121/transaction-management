@@ -1,17 +1,17 @@
 server:
   port: 8888
 
-#spring:
-#  datasource:
-#    url: jdbc:postgresql://localhost:5432/transaction
-#    username: 'admin'
-#    password: 'sa123'
-#    driver-class-name: org.postgresql.Driver
-#  jpa:
-#    hibernate:
-#      ddl-auto: create-drop
-#    properties:
-#      hibernate:
-#        format_sql: true
-#    database: postgresql
-#    database-platform: org.hibernate.dialect.PostgreSQLDialect
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/transaction-management
+    username: 'admin'
+    password: 'sa123'
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
